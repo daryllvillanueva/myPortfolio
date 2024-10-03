@@ -2,14 +2,32 @@
 @tailwind components;
 @tailwind utilities;
 
-@layer base{
+@font-face {
+    font-family: 'Kanit';
+    font-display: swap;
+    src: url('/fonts/Kanit-Regular.woff2') format("woff2"),
+         url('/fonts/Kanit-Regular.woff') format("woff"),
+}
+@font-face {
+    font-family: 'Kanit-Medium';
+    font-display: swap;
+    src: url('/fonts/Kanit-Medium.woff2') format("woff2"),
+         url('/fonts/Kanit-Medium.woff') format("woff")
+}
 
+@layer base{
+    body {
+        @apply font-kanit_m bg-main
+    }
 }
 
 @layer components{
-
+    .bg-gradient {
+        @apply bg-gradient-to-r from-[#252532fa] to-[#23232dfa];
+    }
 }
 
 @layer utilities{
 
 }
+
