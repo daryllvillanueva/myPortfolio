@@ -17,13 +17,21 @@
 
 @layer base{
     body {
-        @apply font-kanit_m bg-main
+        @apply font-kanit_m bg-main transition-all duration-200
     }
 }
 
 @layer components{
     .bg-gradient {
         @apply bg-gradient-to-r from-[#252532fa] to-[#23232dfa];
+    }
+    .tooltip {
+        @apply text-base relative after:hover:scale-100 font-kanit_m;
+    }
+    .tooltip:after{
+        @apply p-0.5 px-1.5 rounded-md
+        absolute -bottom-3 content-[attr(data-tooltip)]
+        text-xs text-white/80 z-[2] scale-0 transition-transform bg-main w-[6rem] text-center;
     }
 }
 
