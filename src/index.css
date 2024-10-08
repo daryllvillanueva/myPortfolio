@@ -33,6 +33,12 @@
         absolute -bottom-3 content-[attr(data-tooltip)]
         text-xs text-white/80 z-[2] scale-0 transition-transform bg-main w-[6rem] text-center;
     }
+    .skills {
+        @apply p-1 rounded-md bg-white text-black;
+    }
+    .btn-projects {
+        @apply p-2 rounded-md bg-white text-black hover:bg-icons;
+    }
 }
 
 @layer utilities{

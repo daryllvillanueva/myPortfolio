@@ -30,9 +30,6 @@ const Home = () => {
           <About/>
         </div>
       </motion.div>
-
-
-
     </main>
   );
 }

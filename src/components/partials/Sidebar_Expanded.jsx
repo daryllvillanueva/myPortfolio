@@ -34,14 +34,16 @@ const Sidebar_Expanded = ({setShowSideBar, showSideBar}) => {
           <li className='text-white/80'>Age:</li>
           <li className='text-icons'>23</li>
         </ul>
-        <ul className='flex justify-between'>
+        <ul className='flex justify-between border-b pb-3'>
           <li className='text-white/80'>Education:</li>
           <li className='text-icons'>De La Salle Lipa</li>
         </ul>
       </div>
-      <button className='btn w-[110px] rounded-md text-black text-lg font-kanit_m bg-white p-1 ml-5 hover:bg-icons'>
+      <p className='text-white/70 px-5 tracking-wide font-kanit'>As a fresh grad, I'm motivated to develop web pages or software that will enhance my knowledge and allow me to continually learn about the industry.</p>
+      <button className='btn w-[110px] rounded-md text-black text-lg font-kanit_m bg-white p-1 mx-auto hover:bg-icons'>
         <Link to='/Villanueva_Daryll.pdf' target='_blank' className='flex gap-2 items-center text-lg'><LuFileSearch2 className='text-2xl'/>View CV</Link>
       </button>
+      <p className='text-white/80 text-center mt-auto px-5 mb-5'>This portfolio is an <Link to={"https://github.com/daryllvillanueva/myPortfolio"} target='_blank'className='text-blue-300'>open source</Link></p>
     </div>
   )
 }

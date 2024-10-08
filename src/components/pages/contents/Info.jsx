@@ -126,7 +126,7 @@ const tools = [
 const Info = () => {
   return (
     <div>
-        <div>
+        <>
             <h1 className='text-white text-4xl'>Services</h1>
             <div className='flex flex-wrap p-2 gap-6 mt-2 justify-center'>
                 <div className='xl:h-[14rem] xl:w-[19rem] lg:w-[15rem] rounded-lg overflow-hidden bg-cards flex flex-col items-center p-4 gap-2'>
@@ -280,8 +280,8 @@ const Info = () => {
                     </div>
                 </div>   
             </div>
-        </div>
-        <div className='mt-8'>
+        </>
+        <div className='mt-10'>
             <h1 className='text-white text-4xl'>Tech Tools</h1>
             <div className='flex flex-wrap items-center gap-6 w-[600px] mx-auto'>
                 {tools.map((tool, index) => (
