@@ -28,7 +28,7 @@ const Portfolio = () => {
         <div className='h-[13rem] w-[60%] rounded-lg overflow-hidden bg-cards flex flex-row p-2 gap-3'>
             <img src="img/dashboard.png" alt="homely" className='rounded-lg w-[55%] h-full object-fill'/>
             <div className='flex flex-col gap-1 w-[30rem]'>
-              <h1 className='text-2xl text-white font-kanit_m'>Dashboard - CRUD</h1>
+              <h1 className='text-2xl text-white font-kanit_m'>Data Admin - CRUD</h1>
               <p className='text-white/75 tracking-wide font-kanit'>Handle and Modify data</p>
               <h1 className='text-white/90 text-xl'>Tech Tools:</h1>
               <ul className='flex gap-3 px-1 font-kanit_m'>
