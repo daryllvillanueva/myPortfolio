@@ -39,13 +39,14 @@ const Sidebar_Expanded = ({setShowSideBar, showSideBar}) => {
           <li className='text-icons'>De La Salle Lipa</li>
         </ul>
       </div>
-      <p className='text-white/70 px-5 tracking-wide font-kanit'>As a fresh grad, I'm motivated to develop website or software that will improve my knowledge and allow me to continually learn about the industry.</p>
+      <p className='text-white/70 px-5 tracking-wide font-kanit_m'>As a fresh grad, I'm motivated to develop website or software that will improve my knowledge and allow me to continually learn about the industry.</p>
       <div className='px-5 font-kanit'>
         <h1 className='border-t pt-3 text-white'>Non-Technical</h1>
         <ul className='text-sm flex flex-wrap gap-3 text-white/70 mt-1'>
           <li>Resourceful</li>
           <li>Adaptable Programmer</li>
           <li>Continuous Learning</li>
+          <li>Responsible</li>
           <li>Collaboration</li>
         </ul>
       </div>
