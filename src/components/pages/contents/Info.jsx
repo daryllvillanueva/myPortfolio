@@ -127,7 +127,7 @@ const Info = () => {
   return (
     <div>
         <>
-            <h1 className='text-white text-4xl'>Services</h1>
+            <h1 className='text-white text-4xl'>What I Offer</h1>
             <div className='flex flex-wrap p-2 gap-6 mt-2 justify-center'>
                 <div className='xl:h-[14rem] xl:w-[19rem] lg:w-[15rem] rounded-lg overflow-hidden bg-cards flex flex-col items-center p-4 gap-2'>
                     <svg fill="#fff" version="1.1" id="Capa_1" viewBox="0 0 419.931 419.931" className='size-14'>
@@ -183,7 +183,7 @@ const Info = () => {
                     </svg>
                     <div className='font-kanit_m'>
                         <h1 className='text-xl text-white'>Webapp Development</h1>
-                        <p className='text-icons mt-1'>Transform your project or business with a stunning website that captures attention and drives results.</p>
+                        <p className='text-icons mt-1'>Transform your project or business with a website or app that captures attention and drives results.</p>
                     </div>
                 </div>
                 <div className='xl:h-[14rem] xl:w-[19rem] lg:w-[15rem] rounded-lg overflow-hidden bg-cards flex flex-col items-center p-4 gap-2'>

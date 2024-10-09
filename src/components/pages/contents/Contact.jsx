@@ -5,8 +5,8 @@ const Contact = () => {
   return (
     <div className='flex flex-col gap-8'>
       <div className='flex flex-col gap-1'>
-        <h1 className='text-5xl text-white font-kanit_m'>Get in touch</h1>
-        <p className='text-xl font-kanit text-[#9d9da0] tracking-wide'>Want to get in touch? I'd love to hear from you. Here's how you can reach me.</p>
+        <h1 className='text-5xl text-white font-kanit_m'>Leave a message.</h1>
+        <p className='text-xl font-kanit text-[#9d9da0] tracking-wide w-[35rem]'>Hey there! Whether you have a project idea, want to discuss collaboration opportunities, or simply want to say hello, I'm all ears! Feel free to drop me a message via email below.</p>
       </div>
       <div className='text-white font-kanit_m'>
         <h1 className='text-3xl'>Email</h1>
